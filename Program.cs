@@ -1,4 +1,4 @@
-using DockerDotnetMySql.Data;
+using DockerDotnetPostgre.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,7 +25,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//Não será usado HTTPS nesse exemplo.
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

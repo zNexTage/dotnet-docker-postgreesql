@@ -3,7 +3,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace DockerDotnetMySql.Migrations
+namespace DockerDotnetPostgre.Migrations
 {
     /// <inheritdoc />
     public partial class InitialMigration : Migration

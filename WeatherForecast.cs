@@ -1,4 +1,4 @@
-namespace DockerDotnetMySql;
+namespace DockerDotnetPostgre;
 
 public class WeatherForecast
 {

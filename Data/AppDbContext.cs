@@ -1,8 +1,8 @@
 using System;
 using Microsoft.EntityFrameworkCore;
-using DockerDotnetMySql.Models;
+using DockerDotnetPostgre.Models;
 
-namespace DockerDotnetMySql.Data;
+namespace DockerDotnetPostgre.Data;
 
 public class AppDbContext : DbContext
 {

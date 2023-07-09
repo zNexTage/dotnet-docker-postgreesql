@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace DockerDotnetMySql.Controllers;
+namespace DockerDotnetPostgre.Controllers;
 
 [ApiController]
 [Route("[controller]")]

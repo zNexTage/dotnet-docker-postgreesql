@@ -1,6 +1,6 @@
 using System;
 
-namespace DockerDotnetMySql.Models;
+namespace DockerDotnetPostgre.Models;
 public class Driver
 {
     public int Id { get; set; }

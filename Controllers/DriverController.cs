@@ -1,10 +1,10 @@
 using System;
-using DockerDotnetMySql.Data;
-using DockerDotnetMySql.Models;
+using DockerDotnetPostgre.Data;
+using DockerDotnetPostgre.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace DockerDotnetMySql.Controllers;
+namespace DockerDotnetPostgre.Controllers;
 
 [ApiController]
 [Route("[Controller]")]
