@@ -31,7 +31,7 @@ public class DriverController : ControllerBase
 
         await _context.SaveChangesAsync();
 
-        var allDrivers = _context.Drivers.ToListAsync();
+        var allDrivers = await _context.Drivers.ToListAsync();
 
         return Ok(allDrivers);
     }
